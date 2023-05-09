@@ -1,0 +1,43 @@
+//
+//  ViewController.swift
+//  HeaderFootTableView
+//
+//  Created by 최영우 on 5/8/23.
+//
+
+import UIKit
+
+class ViewController: UIViewController, UITableViewDataSource {
+    
+    @IBOutlet weak var table: UITableView!
+    
+    struct Store {
+        let title : String
+        let imageName : String
+    }
+    
+    let data : [Store] = [
+        Store(title: "Apple Store", imageName: "AppleStore"),
+        Store(title: "BR31", imageName: "BR31")
+    ]
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        table.dataSource = self
+    }
+
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return data.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let Store = data[indexPath.row]
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CustomViewCell
+        cell.label.text = Store.title
+        return cell
+        
+    }
+
+}
+
