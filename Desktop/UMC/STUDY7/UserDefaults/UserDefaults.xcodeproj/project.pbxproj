@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D53CDB1B2A1E70870005818B /* RegisterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53CDB1A2A1E70870005818B /* RegisterPage.swift */; };
 		D5CC142C2A17649C0072F670 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CC142B2A17649C0072F670 /* AppDelegate.swift */; };
 		D5CC142E2A17649C0072F670 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CC142D2A17649C0072F670 /* SceneDelegate.swift */; };
 		D5CC14302A17649C0072F670 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CC142F2A17649C0072F670 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D53CDB1A2A1E70870005818B /* RegisterPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPage.swift; sourceTree = "<group>"; };
 		D5CC14282A17649C0072F670 /* UserDefaults.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserDefaults.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5CC142B2A17649C0072F670 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5CC142D2A17649C0072F670 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				D5CC142B2A17649C0072F670 /* AppDelegate.swift */,
 				D5CC142D2A17649C0072F670 /* SceneDelegate.swift */,
 				D5CC142F2A17649C0072F670 /* ViewController.swift */,
+				D53CDB1A2A1E70870005818B /* RegisterPage.swift */,
 				D5CC14312A17649C0072F670 /* Main.storyboard */,
 				D5CC14342A17649C0072F670 /* Assets.xcassets */,
 				D5CC14362A17649C0072F670 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				D5CC14302A17649C0072F670 /* ViewController.swift in Sources */,
 				D5CC142C2A17649C0072F670 /* AppDelegate.swift in Sources */,
 				D5CC142E2A17649C0072F670 /* SceneDelegate.swift in Sources */,
+				D53CDB1B2A1E70870005818B /* RegisterPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
